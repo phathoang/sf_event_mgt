@@ -12,6 +12,7 @@ plugin.tx_sfeventmgt {
 		# List of uids, for which the cache should be cleared after registration data changed
 		# *MUST* be defined at template root level to work correct in scheduler task
 		clearCacheUids =
+		orderFieldAllowed = uid,title,teaser,startdate,enddate,price,tstamp,crdate,category.title,location.title,location.city,location.country
 
 		eventDetails {
 			imageWidth = 200
